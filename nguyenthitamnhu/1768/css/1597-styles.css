@@ -1,0 +1,28 @@
+.type-1597 {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(0, 0, 0, 0.04); }
+  .type-1597 .s-contact {
+    max-width: 1250px; }
+    .type-1597 .s-contact-element {
+      text-align: center;
+      padding: 30px; }
+    .type-1597 .s-contact-icon {
+      font-size: 32px; }
+      .type-1597 .s-contact-icon i {
+        padding: 20px;
+        color: #fff;
+        background-color: #61ce70;
+        border-radius: 50%; }
+        .type-1597 .s-contact-icon:hover i {
+          background-color: #23a455; }
+    .type-1597 .s-contact .title {
+      margin-top: 15px;
+      font-size: 20px; }
+      .type-1597 .s-contact .title a {
+        color: #333;
+        text-decoration: none; }
+    .type-1597 .s-contact p {
+      font-family: sans-serif;
+      color: #7a7a7a; }
+    .type-1597 .s-contact .strong {
+      font-size: 24px; }

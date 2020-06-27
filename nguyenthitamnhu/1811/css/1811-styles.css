@@ -1,0 +1,17 @@
+.type-1811 {
+  font-family: 'Roboto', sans-serif; }
+  .type-1811 .s-contact {
+    max-width: 1250px; }
+    .type-1811 .s-contact-element {
+      text-align: center; }
+    .type-1811 .s-contact-icon {
+      font-size: 32px;
+      color: #61ce70; }
+    .type-1811 .s-contact .title {
+      margin-top: 15px;
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.3); }
+    .type-1811 .s-contact p {
+      color: #333; }
+    .type-1811 .s-contact .strong {
+      font-size: 24px; }

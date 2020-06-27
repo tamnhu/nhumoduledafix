@@ -1,0 +1,42 @@
+.type-1829 {
+  font-family: 'Roboto', sans-serif;
+  background: rgba(0, 0, 0, 0.04); }
+  .type-1829 .s-about {
+    max-width: 1250px; }
+    .type-1829 .s-about .divider {
+      margin: 0 auto;
+      margin-bottom: 30px;
+      width: 150px;
+      border-top: 3px solid #61ce70; }
+    .type-1829 .s-about .title {
+      text-align: center; }
+      .type-1829 .s-about .title h2 {
+        font-size: 34px;
+        margin-bottom: 15px; }
+    .type-1829 .s-about-content {
+      padding-top: 15px; }
+      .type-1829 .s-about .mid-content h5 {
+        font: normal bold 20px / 30px "Roboto", Helvetica, Arial, Verdana, sans-serif;
+        color: #333; }
+      .type-1829 .s-about .mid-content p {
+        font-family: sans-serif;
+        color: #7a7a7a; }
+    .type-1829 .s-about .right-content p {
+      font-family: sans-serif;
+      color: #7a7a7a; }
+    .type-1829 .s-about .elementor {
+      padding: 15px;
+      padding-top: 100px; }
+      .type-1829 .s-about .elementor .element {
+        text-align: center; }
+        .type-1829 .s-about .elementor .element .s-icon {
+          font-size: 32px;
+          color: #61ce70; }
+        .type-1829 .s-about .elementor .element p {
+          font-family: sans-serif;
+          color: #333;
+          margin-top: -10px; }
+  @media only screen and (min-width: 767px) {
+    .type-1829 .s-about .md2-custom {
+      flex: 0 0 20%;
+      max-width: 20%; } }

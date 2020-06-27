@@ -1,0 +1,55 @@
+$f-family: 'Roboto', sans-serif;
+$s-l: 15px;
+$t-color: #333;
+$tc-font: normal 16px / 28px sans-serif;
+
+@mixin limit-content($num) {
+    -webkit-line-clamp: $num;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+}
+
+.type-1736 {
+    font-family: $f-family;
+    .s-about{
+        max-width: 1250px;
+        .title{
+            color: $t-color;
+            h2{
+                font-size: 34px;
+            }
+        }
+        &-left{
+            padding: $s-l;
+        }
+        &-right{
+            padding: $s-l;
+        }
+        &-content{
+            font: $tc-font;
+            word-spacing: normal;
+            color: #7a7a7a;
+        }
+        .divider{
+            margin: $s-l 0 30px 0;
+            width: 150px;
+            border-top: 3px solid #61ce70;
+        }
+        .elementor{ 
+            padding: $s-l;
+            .element{
+                text-align: center;
+                .s-icon{
+                    font-size: 32px;
+                    color: #61ce70; 
+                }
+                p{
+                    font: $tc-font;
+                    color: #000;
+                    margin-top: -10px;
+                }
+            }
+        }
+    }
+}

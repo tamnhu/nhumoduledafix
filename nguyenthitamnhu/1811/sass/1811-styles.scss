@@ -1,0 +1,30 @@
+$f-family: 'Roboto', sans-serif;
+$s-l: 15px;
+$t-color: #333;
+$i-color: #61ce70;
+$tc-font: normal 16px / 28px sans-serif;
+
+.type-1811 {
+    font-family: $f-family;
+    .s-contact{
+        max-width: 1250px;
+        &-element{
+            text-align: center;
+        }
+        &-icon{
+            font-size: 32px;
+            color: $i-color;
+        }
+        .title{
+            margin-top: $s-l;
+            font-size: 14px;
+            color: rgba(0,0,0,.3);
+        }
+        p{
+            color: $t-color;
+        }
+        .strong{
+            font-size: 24px;
+        }
+    }
+}

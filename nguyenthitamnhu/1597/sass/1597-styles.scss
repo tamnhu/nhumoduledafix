@@ -1,0 +1,45 @@
+$f-family: 'Roboto', sans-serif;
+$s-l: 15px;
+$t-color: #7a7a7a;
+$i-color: #fff;
+
+.type-1597 {
+    font-family: $f-family;
+    background-color: rgba(0,0,0,.04);
+    .s-contact{
+        max-width: 1250px;
+        &-element{
+            text-align: center;
+            padding: 30px;
+        }
+        &-icon{
+            font-size: 32px;
+            i{
+                padding: 20px;
+                color: $i-color;
+                background-color: #61ce70;
+                border-radius: 50%;
+            }
+            &:hover{
+                i{
+                   background-color: #23a455;
+                }
+            }
+        }
+        .title{
+            margin-top: $s-l;
+            font-size: 20px;
+            a{
+                color: #333;
+                text-decoration: none;
+            }
+        }
+        p{
+            font-family: sans-serif;
+            color: $t-color;
+        }
+        .strong{
+            font-size: 24px;
+        }
+    }
+}
